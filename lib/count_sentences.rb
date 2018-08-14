@@ -19,8 +19,5 @@ class String
   sentence_array = self.split(/[.?!]/)
     sentence_array.delete_if{|sentence| sentence.empty?}
     sentence_array.length
- 
- 
-  self.split(".", "?","!").count
   end
 end
